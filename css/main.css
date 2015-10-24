@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,100&subset=latin,latin-ext);
+
+html,body{
+	margin:0px;
+	height:100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+a,a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.menu{
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+.menu #elemento{
+	padding-top: 2%;
+	padding-bottom: 1.36%;
+	color: white
+}
+
+.menu #elemento:hover{
+	border-bottom: solid #3bd47b;
+	border-bottom-width: 0.5%;
+	font-weight: 400;
+	padding-bottom: 1%;
+}
+
+.principal{
+	height: 100%;
+	background-image: url(../img/img1.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+.titulo{
+	margin-top: 3%;
+	font-family: 'Great Vibes', cursive;
+	font-size: 600%;
+}
+
+.subtitulo{
+	margin-top: 3%;
+	font-family: 'Great Vibes', cursive;
+	font-size: 450%;
+}
+
+.logo{
+	margin-left: 40%;
+	height: 30%;
+	width: 20%;
+	text-align: center;
+	margin-top: 10%;
+	font-family: 'Great Vibes', cursive;
+	font-size: 900%;
+	color: white;
+	background-color: #d9366e;
+	border-radius: 60%;
+}
+
+.logo-xs{
+	margin-left: 47.5%;
+	height: 10%;
+	width: 5%;
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 150%;
+	color: white;
+	background-color: #d9366e;
+	border-radius: 60%;
+}
+
+.contenido{
+	margin-bottom: 3%;
+}
+
+.pregunta{
+	font-weight: 500;
+}
+
+.pie{
+	background-image: url(../img/img2.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+.pie span{
+	color: white;
+}
+
+.facebook{
+	color: #3b5998;
+}
+
+.wa{
+	color: #43d854;
+}
+
+.email{
+	color: #f37520;
+}
+
+.social{
+	padding-top: 4%;
+	padding-bottom: 3%;
+}
+
+.copyright{
+	padding-top: 3%;
+	padding-bottom: 4%;
+	font-size: 150%;
+}
